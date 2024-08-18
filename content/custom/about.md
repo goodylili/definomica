@@ -10,7 +10,7 @@ Definomica exists because anyone should be able to learn DeFi concepts on the fl
 This is completely opensource and free to use.
 
 You can contribute to the project by submitting a PR or opening an issue on
-the [GitHub repository](github.com/goodylili/definomics).
+the [GitHub repository](github.com/goodylili/definomica).
 
 ### List of Protocols Types Covered (inexhaustive):
 

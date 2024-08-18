@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "//definomica.github.io/"
+base_url = "//goodylili.github.io/definomica"
 
 # The site title and description; used in feeds by default.
 title = "definomica"
