@@ -1,7 +1,7 @@
 +++
 title = "What? Why Definomica"
 date = "2024-08-18"
-path = "about"
+path = "info"
 +++
 
 
