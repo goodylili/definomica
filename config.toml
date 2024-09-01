@@ -3,7 +3,7 @@ base_url = "//goodylili.github.io/definomica"
 
 # The site title and description; used in feeds by default.
 title = "definomica"
-description = "Learn the economics and finance conceptst that go into building your favourite crypto protocols"
+description = "Learn the economics and finance concepts that go into building your favourite crypto protocols"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -47,9 +47,9 @@ read_time = "minute read"
 all_tags = "All tags"
 menus = [
     { name = "Latest", url = "/", weight = 2 },
-    { name = "Complete List", url = "/posts", weight = 2 },
+    { name = "All", url = "/posts", weight = 2 },
     { name = "Info", url = "/info", weight = 3 },
-    { name = "Search Tags", url = "/tags", weight = 4 },
+    { name = "Categories", url = "/tags", weight = 4 },
 ]
 
 # config social icon info in the footer

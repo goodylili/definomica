@@ -47,5 +47,5 @@ This is an inexhaustive list and will be updated as more protocols are added to 
 
 Github: [@goodylili/definomica](https://github.com/goodylili/definomica) <br />
 
-You can contact the project creator (Goodness)
-via [email](mailto:ukejegoodness599@gmail.com) or [Twitter](https://twitter.com/goodylili).
+Create a pull request and tag an admin; or DM/Mention @goodylili on X with the issue.
+
