@@ -35,7 +35,7 @@ favicon = "/icon/favicon.png"
 copyright = "definomica 👻"
 
 [extra.translations]
-languages = [{name = "en", url = "/"}]
+languages = [{ name = "en", url = "/" }]
 
 [[extra.translations.en]]
 show_more = "Read more ⟶"
@@ -48,8 +48,8 @@ all_tags = "All tags"
 menus = [
     { name = "Latest", url = "/", weight = 2 },
     { name = "All", url = "/posts", weight = 2 },
-    { name = "Info", url = "/info", weight = 3 },
     { name = "Categories", url = "/tags", weight = 4 },
+    { name = "About", url = "/info", weight = 3 },
 ]
 
 # config social icon info in the footer
@@ -57,9 +57,3 @@ menus = [
 icon = "GitHub"
 name = "GitHub"
 url = "https://github.com/goodylili/definomica"
-
-
-[[extra.social]]
-icon = "mail"
-name = "mail"
-url = "ukejegoodness599@gmail.com"
