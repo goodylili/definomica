@@ -1,0 +1,54 @@
+name: 🚀 Feature Request
+description: Suggest a new feature for the Definomica open-source project
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ✨ Thank you for contributing to Definomica! ✨
+        Your ideas help improve this open-source crypto-finance education project.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Provide a brief overview of the feature you're suggesting.
+      placeholder: A concise description of the proposed feature for Definomica.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and Motivation
+      description: |
+        What problem does this feature solve?
+        How will it enhance the Definomica project?
+      placeholder: Explain the issue this feature addresses and its benefits for the project and its users.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: |
+        Describe how you envision this feature working.
+        How would it be implemented in the project?
+      placeholder: |
+        Details about the feature:
+        - How it would function
+        - How it would integrate with the existing project
+        - Any technical considerations
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that might be relevant to the feature request.
+      placeholder: Related issues, examples from other open-source projects, etc.
+    validations:
+      required: false

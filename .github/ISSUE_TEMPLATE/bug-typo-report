@@ -1,0 +1,60 @@
+name: 🐛 Bug or Typo Report
+description: Report a bug or typo to help improve the project
+title: "[Bug/Typo]: "
+labels: ["issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!
+        Please provide as much detail as possible to help us address the issue.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: Is this a bug or a typo?
+      options:
+        - Bug
+        - Typo
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: What's the problem? For bugs, what did you expect to happen and what actually happened?
+      placeholder: I found a typo in the documentation / There's a bug in the login process...
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Where did you find it?
+      description: Provide the file name, URL, or section where the issue is located
+      placeholder: docs/getting-started.md, https://example.com/page, Login page
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (for bugs)
+      description: If reporting a bug, list the steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here (screenshots, etc.)
+    validations:
+      required: false
