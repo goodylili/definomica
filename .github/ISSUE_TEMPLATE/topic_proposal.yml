@@ -1,0 +1,58 @@
+name: Topic Request
+description: Request a new article topic for Definomica
+title: "[Topic Request]: "
+labels: topic-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request a topic you'd like to see covered in Definomica. Contributors will write articles based on these requests.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Proposed Topic
+      description: Briefly state the main crypto-finance concept you want an article about.
+      placeholder: "Decentralized Finance (DeFi) Yield Farming"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Topic Description
+      description: Provide a short description of what you'd like the article to cover.
+      placeholder: "An beginner-friendly explanation of DeFi yield farming, including its mechanisms, risks, and potential rewards."
+    validations:
+      required: true
+
+  - type: textarea
+    id: key_points
+    attributes:
+      label: Key Points to Cover
+      description: List 3-5 main points or questions you'd like the article to address.
+      placeholder: |
+        1. What is yield farming and how does it work in DeFi?
+        2. Common yield farming strategies for beginners
+        3. Risks associated with yield farming
+        4. How to evaluate potential yield farming opportunities
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_audience
+    attributes:
+      label: Target Audience
+      description: Who would benefit most from this article?
+      placeholder: "Crypto beginners, DeFi curious individuals, traditional finance professionals looking to understand crypto concepts"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Any other details or context that might be helpful for the writer.
+      placeholder: "Links to related resources, specific DeFi protocols to mention, common misconceptions to address, etc."
+    validations:
+      required: false
