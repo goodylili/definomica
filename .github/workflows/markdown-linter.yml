@@ -1,0 +1,54 @@
+name: Lint and format markdown files
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  run-markdownlint-and-prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Filter added or modified paths
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          list-files: shell
+          filters: |
+            article:
+            - added|modified: 'articles/**/*.md'
+
+      - name: Prettify markdown
+        if: ${{ steps.filter.outputs.article == 'true' }}
+        run: |
+          npm run fmt -- \
+          ${{ steps.filter.outputs.article_files }}
+
+      - name: Commit formatting changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Apply formatting changes
+          commit: "--no-verify"
+          add: "articles/**/*.md"
+
+      - name: Register the problem matcher
+        run: |
+          echo ::add-matcher::.github/markdownlint-problem-matcher.json
+
+      - name: Run markdownlint-cli
+        if: ${{ steps.filter.outputs.article == 'true' }}
+        run: |
+          npm run lint -- \
+            --config \
+            .markdownlint.yaml \
+            ${{ steps.filter.outputs.article_files }}

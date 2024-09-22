@@ -1,51 +1,17 @@
 +++
-title = "What? Why Definomica"
-date = "2024-08-18"
-path = "info"
+title = "About"
+date = "2022-05-12"
+path = "about"
 +++
 
+## Zola at a Glance
 
-Definomica exists because anyone should be able to learn DeFi concepts on the fly as they please.
+Zola is a static site generator (SSG), similar to [Hugo](https://gohugo.io/), [Pelican](https://blog.getpelican.com/), and [Jekyll](https://jekyllrb.com/) (for a comprehensive list of SSGs, please see [Jamstack](https://jamstack.org/generators)). It is written in [Rust](https://www.rust-lang.org/) and uses the [Tera](https://tera.netlify.com/) template engine, which is similar to [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/), [Django templates](https://docs.djangoproject.com/en/2.2/topics/templates/), [Liquid](https://shopify.github.io/liquid/), and [Twig](https://twig.symfony.com/). Content is written in [CommonMark](https://commonmark.org/), a strongly defined, highly compatible specification of [Markdown](https://www.markdownguide.org/).
 
-This is completely opensource and free to use.
+SSGs use dynamic templates to transform content into static HTML pages. Static sites are thus very fast and require no databases, making them easy to host. A comparison between static and dynamic sites, such as WordPress, Drupal, and Django, can be found [here](https://dev.to/ashenmaster/static-vs-dynamic-sites-61f).
 
-You can contribute to the project by submitting a PR or opening an issue on
-the [GitHub repository](github.com/goodylili/definomica).
+To get a taste of Zola, please see the quick overview below.
 
-### List of Protocols Types Covered (inexhaustive):
+## First Steps with Zola
 
-1. Decentralized Exchanges (DEXs)
-2. Lending and Borrowing Protocols
-3. Stablecoin Protocols
-4. Yield Farming and Liquidity Mining Protocols
-5. Derivatives Protocols
-6. Insurance Protocols
-7. Asset Management Protocols
-8. Oracle Protocols
-9. Cross-Chain Protocols
-10. Governance Protocols
-11. Privacy Protocols
-12. Synthetic Asset Protocols
-13. Prediction Markets Protocols
-14. Staking Protocols
-15. Identity and Credit Scoring Protocols
-16. Tokenization Protocols
-17. Crowdfunding Protocols
-18. Payment Protocols
-19. Escrow Protocols
-20. Non-Fungible Token (NFT) Protocols
-22. Synthetic Commodities Protocols
-23. Flash Loan Protocols
-24. Collateralized Debt Protocols
-25. Risk Management Protocols
-26. Gaming and Gambling Protocols
-
-This is an inexhaustive list and will be updated as more protocols are added to the DeFi ecosystem.
-
-
-# Contact & Socials
-
-Github: [@goodylili/definomica](https://github.com/goodylili/definomica) <br />
-
-Create a pull request and tag an admin; or DM/Mention @goodylili on X with the issue.
-
+Unlike some SSGs, Zola makes no assumptions regarding the structure of your site. In this overview, we'll be making a simple blog site.

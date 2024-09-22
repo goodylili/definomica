@@ -1,0 +1,27 @@
+- name: article
+  color: 54dd9b
+  description: Tracking an article
+- name: proposal
+  color: "5319e7"
+  description: New proposal for the Definomica Project
+- name: in-progress
+  color: "12ede9"
+  description: Work in progress
+- name: attention
+  color: "e0d216"
+  description: Needs attention
+- name: question
+  color: d876e3
+  description: Ask the contributors something
+- name: approved
+  color: c5def5
+  description: Approved for merge
+- name: published
+  color: f4ca81
+  description: Published on the Definomica webpage
+- name: stale
+  color: cc5529
+  description: No recent updates have been made by the Author
+- name: closed
+  color: d93f0b
+  description: Proposal was rejected

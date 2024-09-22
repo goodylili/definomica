@@ -1,15 +1,15 @@
 <footer>
-    <div style="display:flex">
-        {% for social in config.extra.social %}
+  <div style="display:flex">
+    {% for social in config.extra.social %}
         <a class="soc" href={{ social.url }} title={{ social.name }}>
             <i data-feather={{ social.icon }}></i>
         </a>
-        {% endfor %}
-    </div>
-    <div class="footer-info">
-        {{ now() | date(format="%Y") }} © {{ config.extra.copyright }} |
-        <a href="https://x.com/Goodylili/status/1824743780769050680">the idea</a>
-    </div>
+    {% endfor %}
+  </div>
+  <div class="footer-info">
+    {{ now() | date(format="%Y") }} © {{ config.extra.copyright }} | <a
+      href="https://github.com/XXXMrG/archie-zola">Archie-Zola Theme</a>
+  </div>
 </footer>
 
 {% if config.extra.social %}
