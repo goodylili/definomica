@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: #202124;
+    background-color: #000000;
 }
 
 ::-moz-selection {
@@ -10,7 +10,7 @@ body {
 }
 
 ::selection {
-    background: red;
+    background: #000000;
     color: #fff;
     text-shadow: none;
 }
