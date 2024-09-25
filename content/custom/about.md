@@ -9,9 +9,11 @@ Definomica exists because anyone should be able to learn DeFi concepts on the fl
 This is completely opensource and free to use.
 
 You can contribute to the project by submitting a PR or opening an issue on
-the [GitHub repository](github.com/goodylili/definomica).
+the [GitHub repository](github.com/goodylili/definomica). Check the contributing guidelines to get started.
 
-### List of Protocols Types Covered (inexhaustive):
+# Categories
+
+    This is an inexhaustive list and will be updated as more DeFi paradigms launch.
 
 1. Decentralized Exchanges (DEXs)
 2. Lending and Borrowing Protocols
@@ -33,14 +35,16 @@ the [GitHub repository](github.com/goodylili/definomica).
 18. Payment Protocols
 19. Escrow Protocols
 20. Non-Fungible Token (NFT) Protocols
-22. Synthetic Commodities Protocols
-23. Flash Loan Protocols
-24. Collateralized Debt Protocols
-25. Risk Management Protocols
-26. Gaming and Gambling Protocols
-    This is an inexhaustive list and will be updated as more protocols are added to the DeFi ecosystem.
+21. Synthetic Commodities Protocols
+22. Flash Loan Protocols
+23. Collateralized Debt Protocols
+24. Risk Management Protocols
+25. Gaming and Gambling Protocols
 
 # Contact & Socials
 
 Github: [@goodylili/definomica](https://github.com/goodylili/definomica) <br />
 Create a pull request and tag an admin; or DM/Mention @goodylili on X with the issue.
+
+
+Have fun learning and experimenting!
