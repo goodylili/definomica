@@ -46,10 +46,10 @@ posted_by = "Published by"
 read_time = "minute read"
 all_tags = "All tags"
 menus = [
-    { name = "Latest", url = "/", weight = 2 },
-    { name = "All", url = "/posts", weight = 2 },
-    { name = "Categories", url = "/tags", weight = 4 },
-    { name = "About", url = "/info", weight = 3 },
+    { name = "latest", url = "/", weight = 2 },
+    { name = "all", url = "/posts", weight = 2 },
+    { name = "categories", url = "/tags", weight = 4 },
+    { name = "about", url = "/info", weight = 3 },
 ]
 
 # config social icon info in the footer
