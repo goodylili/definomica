@@ -2,7 +2,7 @@
 base_url = "//goodylili.github.io/definomica"
 
 # The site title and description; used in feeds by default.
-title = "definomica"
+title = "Definomica"
 description = "Learn the economics and finance concepts that go into building your favourite crypto protocols"
 
 # Whether to automatically compile all Sass files in the sass directory
