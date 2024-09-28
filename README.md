@@ -15,12 +15,12 @@ need to understand the DeFi concepts that go into building their favourite proje
 ## Getting Started
 
 To get started with contributing, please refer to
-our [CONTRIBUTING.md](https://github.com/goodylili/definomica/blob/main/contributing.md) for guidelines on how to
+our [CONTRIBUTING.md](https://github.com/goodylili/definomica/blob/main/CONTRIBUTING.md) for guidelines on how to
 contribute to the project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/goodylili/definomica/blob/main/LICENSE) file for details.
 
 ## Contact
 
