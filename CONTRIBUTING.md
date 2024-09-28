@@ -6,18 +6,8 @@ documentation to proposing new features. Here’s a guide to help you get starte
 ## How to Contribute
 
 First, you need to setup your environment with the following tools. Check
-out [SETUP.md](https://github.com/goodylili/definomica/blob/main/setup.md) for the series of steps you need after
+out [SETUP.md](https://github.com/goodylili/definomica/blob/main/SETUP.md) for the series of steps you need after
 reading this document.
-
-Definomica's website is powered by [Zola](https://www.getzola.org), a static site generator built with Rust, designed to
-make website creation simple. Before making any contributions, you’ll need to install Zola on your local machine to test
-the site.
-
-### 1. Install Zola
-
-- Follow the installation instructions for your operating system:
-    - [Zola Installation Guide](https://www.getzola.org/documentation/getting-started/installation/)
-- Verify the installation by running Zola locally to ensure your changes work as expected.
 
 ### 2. Write Your Contribution in Markdown
 
@@ -25,18 +15,6 @@ the site.
   to draft your content and paste it into a Markdown file.
 - Need help with Markdown? Check out the [Markdown Guide](https://www.markdownguide.org/).
 - Alternatively, create an issue with your draft attached if you’re unsure about Markdown formatting.
-
-### 3. Include Required Metadata Fields
-
-- At the top of your Markdown file, include the following fields:
-    ```markdown
-    +++
-    title = "Your Title Here"
-    date = "YYYY-MM-DD"
-    author = "Your Name"
-    description = "A brief description of the topic"
-    +++
-    ```
 
 ### 4. Content Guidelines
 
