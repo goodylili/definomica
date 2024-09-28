@@ -1,66 +1,88 @@
-Thank you for considering contributing to this project
+Here’s a guide to help you setup as you've chosen to contribute to Definomica.
 
-## How to Contribute
+Before you proceed, please read [CONTRIBUTING.md](https://github.com/goodylili/definomica/blob/main/contributing.md) for
+the general process of how contributions are handled.
 
-The website for this project is built with [Zola](https://www.getzola.org), a Rust based static site generator that
-makes it easy to build websites without indepth coding experience.
+1. Install Zola
 
-You'll need to install the Zola CLI tool first, to test the website locally (your PC) before making requests (to make
-sure everything is all set)
+Follow the installation instructions for your operating system:
 
-1. **Install Zola**:
-    - Follow the installation instructions for your operating system (Windows, Linux, macOS).
-    - [Zola Installation Guide](https://www.getzola.org/documentation/getting-started/installation/)
+ ```bash
+    # For macOS
+    brew install zola
 
-2. **Write Markdown**:
-    - Contributions should be in Markdown format.
-    - Don't know Markdown format? You can write on Editors like Notion and Paste it here, or you can use
-      this [Markdown Guide](https://www.markdownguide.org/) to Learn.
-    - If you don't want to go through that just create an issue and Link the document.
-    - Ensure you include the necessary fields at the top of your file.
+    # For Ubuntu
+    sudo apt install zola
 
-3. **Add Necessary Fields**:
-    - Example of required fields:
-   ```markdown
-   +++
-   title = "Your Title Here"
-   date = "YYYY-MM-DD"
-   author = "Your Name"
-   description = "A brief description of the topic"
-   +++
-   ```
+    # For Windows, use the installer from the Zola website
+```
 
-4. **Write Your Contribution**:
-    - Provide clear and concise content relevant to the topic.
-    - Please keep it short, simple, informative and avoid unnecessary Jargon.
+Verify the installation by running Zola locally:
 
-5. **Linting with Markdown Lint**:
-    - Use Markdown Lint to ensure your Markdown files are properly formatted.
-    - [Markdown Lint Documentation](https://github.com/markdownlint/markdownlint)
+```bash
+    zola --version
+```
 
-6. **Making a Pull Request (PR)**:
-    - Once your contribution is ready, submit a PR for review.
-    - One of the contributors would merge the pull request in no time if everything is right.
+2. Writing Your Contribution
+   Find your way to the [content/posts](https://github.com/goodylili/definomica/tree/main/content/posts) directory and
+   create a new Markdown file with the name of the topic you want to write about.
 
-## Example Markdown File
+> **Note:**
+> - Use a short, informative title.
+> - Do not tamper with existing files
+> - Add images in the [static/images](https://github.com/goodylili/definomica/tree/main/static/screenshot) directory.
 
-Here’s an example of how your Markdown file should look:
 
-+++
-title = "Choosing the Best Interoperability Solution for Your Project"
+If you’re unfamiliar with Markdown, you can use editors like Notion
+to draft your content and paste it into a Markdown file.
 
-date = "2024-09-03"
+### 3. Include Required Metadata Fields
 
-author = "Ukeje Goodness"
+At the top of your Markdown file, include the following fields:
 
-description = "This short article provides a brief overview of the big interop players to help you choose one"
-+++
+```markdown
+    +++
+    title = "Your Title Here"
+    date = "YYYY-MM-DD"
+    author = "Your Name"
+    description = "A brief description of the topic"
+    +++
+```
 
----
+> **Note:**
+> - The title should be a short, informative title.
+> - The date should be the date you started writing the article.
+> - The author should be your GitHub username.
+> - The description should be a short summary of the topic.
 
-_**[Axelar](axelar.network) made this piece possible. Axelar is the shortest path to scale your web3 application across
-blockchains**_
+4. Linting with Markdown Lint
 
-... (existing content) ...
+Before submitting, run your Markdown file through a linter to ensure it’s properly formatted:
 
-We the contributors are looking forward to your contribution. Let's make DeFi greater through education.
+```bash
+    npm install -g markdownlint-cli
+    markdownlint yourfile.md
+```
+
+Finally, run the following command to check for any errors on a live version of the website:
+
+```bash
+zola build
+zola serve
+```
+
+Open the website running locally and proofread, check for errors or any issues with the document.
+
+5. Submitting a Pull Request (PR)
+
+Once you’re satisfied with your changes, submit a PR for review:
+
+```bash
+    git add yourfile.md
+    git commit -m "Your commit message"
+    git push origin your-branch-name
+```
+
+Now, you can submit a pull request. Your contribution is appreciated and it will be merged in no distant time. Please
+read [CONTRIBUTING.md](https://github.com/goodylili/definomica/blob/main/contributing.md) for
+the general process of how contributions are handled.

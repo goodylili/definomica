@@ -1,29 +1,82 @@
-Thank you for considering making contributions to the Definomica!
+# Contributing to Definomica
 
-Contributing to this repo can mean many things, from participating in discussion to proposing changes and edits.
+Thank you for considering contributing to Definomica! We welcome all types of contributions, from improving
+documentation to proposing new features. Here’s a guide to help you get started:
 
-To ensure a smooth workflow for all contributors, the general procedure for contributing has been established:
+## How to Contribute
 
-- Start by browsing new issues and discussions. If you are looking for something interesting or if you have something in
-  your mind, there is a chance it had been discussed.
-    - Looking for a good place to start contributing? How about checking out some good first issues or bugs?
-- Determine whether a GitHub issue or discussion is more appropriate for your needs:
-    - If want to propose something new that requires specification or an additional design, or you would like to change
-      a process, start with a new discussion. With discussions, we can better handle the design process using discussion
-      threads. A discussion usually leads to one or more issues.
-    - If the issue you want addressed is a specific proposal, a bug or an edit, then open a new issue.
-    - Review existing issues to find an issue you'd like to help with.
-- Participate in thoughtful discussion on that issue.
-- If you would like to contribute:
-    - Ensure that the proposal has been accepted.
-    - Ensure that nobody else has already begun working on this issue. If they have, make sure to contact them to
-      collaborate.
-    - If nobody has been assigned to the issue, and you would like to work on it, make a comment on the issue to inform
-      the community of your intentions to begin work.
-    - To submit your work as a contribution to the repository follow standard GitHub best practices.
-      See [pull request guideline](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors).
+First, you need to setup your environment with the following tools. Check
+out [SETUP.md](https://github.com/goodylili/definomica/blob/main/setup.md) for the series of steps you need after
+reading this document.
 
-> 🚨Note: At this time, we will not be accepting contributions that only fix spelling or grammar errors in
-documentation,code or elsewhere. The repository has a nightly job that spell checks all files and will automatically
-open PRs for anyspelling errors.
+Definomica's website is powered by [Zola](https://www.getzola.org), a static site generator built with Rust, designed to
+make website creation simple. Before making any contributions, you’ll need to install Zola on your local machine to test
+the site.
 
+### 1. Install Zola
+
+- Follow the installation instructions for your operating system:
+    - [Zola Installation Guide](https://www.getzola.org/documentation/getting-started/installation/)
+- Verify the installation by running Zola locally to ensure your changes work as expected.
+
+### 2. Write Your Contribution in Markdown
+
+- Contributions should be made in Markdown format. If you’re unfamiliar with Markdown, you can use editors like Notion
+  to draft your content and paste it into a Markdown file.
+- Need help with Markdown? Check out the [Markdown Guide](https://www.markdownguide.org/).
+- Alternatively, create an issue with your draft attached if you’re unsure about Markdown formatting.
+
+### 3. Include Required Metadata Fields
+
+- At the top of your Markdown file, include the following fields:
+    ```markdown
+    +++
+    title = "Your Title Here"
+    date = "YYYY-MM-DD"
+    author = "Your Name"
+    description = "A brief description of the topic"
+    +++
+    ```
+
+### 4. Content Guidelines
+
+- Keep your contributions clear, concise, and relevant.
+- Avoid jargon; make the content accessible to a broad audience.
+- Keep it short and to the point while providing value.
+
+### 5. Linting with Markdown Lint
+
+- Before submitting, run your Markdown file through a linter to ensure it’s properly formatted.
+- Use [Markdown Lint](https://github.com/markdownlint/markdownlint) to catch any syntax issues.
+
+### 6. Submitting a Pull Request (PR)
+
+- Once you’re satisfied with your changes, submit a PR for review.
+- Ensure your PR clearly describes what changes you’re proposing.
+- We review PRs promptly, so expect feedback or merging soon.
+
+## General Contribution Process
+
+1. **Browse Existing Issues and Discussions**  
+   Start by reviewing ongoing issues or discussions. This is a great way to see where your skills might be most useful.
+   If you're unsure where to start, look for issues tagged as "good first issues" or "bugs."
+
+2. **Choose Between Issues and Discussions**
+    - Use **Discussions** for proposing new features, changing processes, or collaborating on a larger design.
+      Discussions usually evolve into one or more issues.
+    - Use **Issues** for reporting bugs, proposing specific edits, or making concrete suggestions.
+
+3. **Participate in Discussions**  
+   Thoughtful contributions to ongoing discussions can help shape the project’s future. Engage with other contributors
+   to refine ideas before starting work.
+
+4. **Working on an Issue**
+    - Ensure that the issue you’re interested in has been approved.
+    - If someone else is already working on the issue, reach out to see if collaboration is possible.
+    - If no one is assigned, comment to let others know you’re working on it.
+
+5. **Submit a Pull Request (PR)**
+    - Once your work is ready, follow standard GitHub practices to submit a
+      PR. [Pull request guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors).
+
+We look forward to your contributions to Definomica! Together, we can make DeFi education and innovation even better.
