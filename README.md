@@ -1,5 +1,3 @@
-# Definomica
-
 <div align="center">
   <h1> Definomica </h1>
 </div>
