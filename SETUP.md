@@ -3,7 +3,7 @@ Here’s a guide to help you setup as you've chosen to contribute to Definomica.
 Before you proceed, please read [CONTRIBUTING.md](https://github.com/goodylili/definomica/blob/main/contributing.md) for
 the general process of how contributions are handled.
 
-1. Install Zola
+### 1. Install Zola
 
 Follow the installation instructions for your operating system:
 
@@ -23,7 +23,7 @@ Verify the installation by running Zola locally:
     zola --version
 ```
 
-2. Writing Your Contribution
+### 2. Writing Your Contribution
    Find your way to the [content/posts](https://github.com/goodylili/definomica/tree/main/content/posts) directory and
    create a new Markdown file with the name of the topic you want to write about.
 
@@ -55,7 +55,7 @@ At the top of your Markdown file, include the following fields:
 > - The author should be your GitHub username.
 > - The description should be a short summary of the topic.
 
-4. Linting with Markdown Lint
+### 4. Linting with Markdown Lint
 
 Before submitting, run your Markdown file through a linter to ensure it’s properly formatted:
 
@@ -73,7 +73,7 @@ zola serve
 
 Open the website running locally and proofread, check for errors or any issues with the document.
 
-5. Submitting a Pull Request (PR)
+### 5. Submitting a Pull Request (PR)
 
 Once you’re satisfied with your changes, submit a PR for review:
 
