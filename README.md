@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Definomica </h1>
+  <h1> Definomica (WIP) </h1>
 </div>
 
 Definomica is a community-based DeFi education project aimed at providing resources and knowledge to help individuals
